@@ -1,0 +1,15 @@
+{
+    "enforceall": true,
+    "nocomma": false,
+    "singleGroups": false,
+
+    "noempty": false,
+    "es5": false,
+    "es3": true,
+    "eqnull": true,
+
+    "curly": false,
+    "camelcase": false,
+
+    "predef": ["module", "define", "console"]
+}

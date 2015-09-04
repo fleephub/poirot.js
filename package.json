@@ -1,0 +1,47 @@
+{
+  "name": "poirot",
+  "description": "Elegant Handlebars templates",
+  "version": "1.0.0",
+  "homepage": "https://github.com/fleephub/poirot.js",
+  "license": "MIT",
+  "author": {
+    "name": "Marko Kreen",
+    "email": "marko@fleep.io",
+    "url": "https://fleep.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fleephub/poirot.js"
+  },
+  "bugs": {
+    "url": "https://github.com/fleephub/poirot/issues"
+  },
+  "scripts": {
+    "test": "grunt",
+    "check-versions": "npm outdated --depth 0",
+    "refresh": "echo 'Cleaning...' && rm -rf dist node_modules && echo 'Installing...' && npm install"
+  },
+  "main": "poirot.js",
+  "keywords": [
+    "template",
+    "mustache",
+    "handlebars",
+    "html",
+    "browser",
+    "secure",
+    "safe",
+    "noeval"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-uglify": "^0.9.0",
+    "grunt-istanbul": "^0.6.0",
+    "grunt-node-qunit": "^2.0.0"
+  }
+}
